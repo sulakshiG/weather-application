@@ -33,14 +33,14 @@ https://github.com/sulakshiG/weather-application.git
 3. Firstly, the Backend code `weather-api` has to be executed either using an appropriate IDE or Command Line Interface if Maven build tool is already installed in the computer.
 
     - If you want access weather API using your own API key, you need to register with [openweathermap.org](https://openweathermap.org/) to get your own API key.
-    - Then you need to copy your own unique API key and update [`application.properties`](https://github.com/sulakshiG/weather-application/blob/main/weather-api/src/main/resources/application.properties) file in `weather-api` folder as follows.
+    - Then you need to copy your own unique API key and update the [`application.properties`](https://github.com/sulakshiG/weather-application/blob/main/weather-api/src/main/resources/application.properties) file in the `weather-api` folder as follows.
 
       ```
       weather.appId='YOUR_API_KEY'
       ```
 
 5. After that, the Frontend code has to be executed.
-   To run the React App, direct to `weather-app` folder in the terminal and type `npm start`
+   To run the React App, direct to the `weather-app` folder in the terminal and type `npm start`
 
 
 
