@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/Header_Background.png) no-repeat;
+  background-size: cover auto;
+  background-color: #1f2128;
+  justify-content: center;
+  /* align-items: center; */
+
+  
+}
+
+
+
+

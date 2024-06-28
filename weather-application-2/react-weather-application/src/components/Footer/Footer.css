@@ -1,0 +1,20 @@
+.footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(48, 51, 61);
+    height: 2%;
+    width: 100%;
+}
+.footer-text {
+    font-size: 1rem;
+    color: rgba(241, 241, 241, 0.502);
+    text-align: center;
+    justify-content: center;
+    display: block; 
+    padding: 1rem; 
+    
+  }
+
+  

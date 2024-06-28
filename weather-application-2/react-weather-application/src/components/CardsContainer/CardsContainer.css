@@ -1,0 +1,72 @@
+/* .cards-container {
+    display: flex;
+    min-width: 100%;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.column {
+    flex: 50%;
+    flex-direction: column;
+    max-width: 30%;
+}  
+  
+@media (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+  }
+
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  } */
+
+  .cards-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    gap: -1rem; /* Reduced gap between cards horizontally and vertically */
+  }
+  
+  .column {
+    flex: 1 1 calc(50% - 0.25rem); /* Two columns with a reduced gap */
+    max-width: calc(50% - 0.25rem); /* Ensure the columns don't exceed 50% minus the gap */
+    margin-bottom: -1rem; /* Reduced gap between rows */
+    margin-top: -1rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  
+  .card {
+    border-radius: 0.25rem;
+  }
+  
+  @media (min-width: 1200px) {
+    .column {
+      flex: 1 1 calc(50% - .25rem);
+      max-width: calc(50% - .25rem);
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .column {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+
+  

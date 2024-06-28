@@ -1,0 +1,201 @@
+.lowerTemplate {
+    background-color: rgb(56, 59, 71) ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    width: 30vw;
+    border-radius: 0 0 0.5rem 0.5rem;
+    
+}
+
+.column-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    margin: .5rem -1rem;
+    width: 100%;
+}
+
+.pressure-humidity-visibilty{
+    text-align: left;
+    margin: .5rem 1rem;
+    flex: 1;
+    
+}
+
+.pressure-humidity-visibilty > p{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.wind {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .5rem 1rem;
+    flex: 1;
+}
+
+.wind > p{
+    margin-top: 0.1rem;
+}
+
+.sunrise-sunset{
+    text-align: right;
+    margin: .5rem 1rem;
+    flex: 1;
+}
+
+.sunrise-sunset > p {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+/*///////////////////////////*/
+.upperTemplate-1 {
+    color: white;
+    background: url(../../assets/Cloud_Background.png) no-repeat;
+    background-color: rgb(71, 209, 124) ;
+    margin-top: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    width: 30vw;
+    border-radius: 0.5rem 0.5rem 0 0 ;
+    
+}
+
+.upperTemplate-1-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.upperTemplate-1-container > .first-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.upperTemplate-1-container > .second-column {
+    flex: 1;
+}
+
+.city-time-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: .4rem 1rem;
+}
+
+.city-time-container > p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.1rem;
+}
+.city-time-container > h2 {
+    font-size: 1.5rem;
+    font-weight: 650;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+}
+
+.weather-container {
+    display: flex;
+    flex-direction: flexDirection;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+
+.temperature-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 1rem;
+}
+
+.temperature-container > p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.1rem;
+    margin-bottom: 0;
+}
+.temperature-container > h2{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0.1rem;
+    margin-top: -1rem;
+}
+
+.upperTemplate-2 {
+    color: white;
+    background-color: rgb(71, 209, 124) ;
+    margin-top: 2rem;
+    /* margin-left: 2rem;
+    margin-right: 2rem; */
+    width: 30vw;
+    border-radius: 0.5rem 0.5rem 0 0;
+    
+}
+
+.upperTemplate-2-container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.template-card-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+}
+
+
+/* /////////////////////////// */
+@media (max-width: 1440px) {
+    .column-container {
+        font-size: 0.6rem;
+        
+    }
+
+    .city-time-container > p {
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .city-time-container > h2 {
+        font-size: 1.2rem;
+        font-weight: 650;
+    }
+
+    .weather-container {
+        font-size: 0.7rem;
+    }
+
+    .temperature-container > p {
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .temperature-container > h2{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+}
+
+/* 
+@media (max-width: 1024px) {
+    .lowerTemplate {
+        width: 80vw;
+    }
+} */
