@@ -3,7 +3,7 @@
 A web application with a simple user interface to display the latest weather information of selected set of cities in the world from a Weather API.
 This particular application will use codes representing real world cities, which then are extracted from the provided JSON file, as reference to call [openweathermap.org](https://openweathermap.org/) to get the relevant weather information.
 
-# weather-application-1
+## weather-application-1
 ## Used Technologies 
 - Back End Development:
   - Java
@@ -41,8 +41,14 @@ https://github.com/sulakshiG/weather-application.git
       ```
 
 5. After that, the Frontend code has to be executed.
-   To run the React App, direct to the `weather-app` folder in the terminal and type `npm start`
+   To run the React App, direct to the `weather-app` folder in the terminal and install all relevant dependencies using `npm install` command and then type `npm start`
 
+## weather-application-2
+## Used Technologies 
+  - HTML
+  - CSS
+  - Javascript
+  - React
 
 
     
